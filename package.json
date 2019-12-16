@@ -1,0 +1,28 @@
+{
+  "name": "node-api-db",
+  "version": "1.0.0",
+  "description": "RESTful API with Node.js, Express, Oracle and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreboucas/node-api-db.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "database"
+  ],
+  "author": "Marcelo Rebouças",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mreboucas/node-api-db/issues"
+  },
+  "homepage": "https://github.com/mreboucas/node-api-db#readme",
+  "dependencies": {
+    "postgresql": "0.0.1"
+  }
+}
