@@ -12,10 +12,10 @@ const Pool = require('pg').Pool
 const httpStatusCode = require('./http-status-code.js')
 
 const pool = new Pool({
-    user: 'redir',
+    user: 'user',
     host: '0.0.0.0',
     database: 'srvpostgres',
-    password: 'redir',
+    password: 'user',
     port: 5432
 })
 
