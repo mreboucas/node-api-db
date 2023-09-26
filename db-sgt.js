@@ -13,7 +13,7 @@ const httpStatusCode = require('./http-status-code.js')
 
 const pool = new Pool({
     user: 'redir',
-    host: '172.25.131.68',
+    host: '0.0.0.0',
     database: 'srvpostgres',
     password: 'redir',
     port: 5432
